@@ -6,15 +6,32 @@ This project demonstrates the use of Makefile for build automation and GitHub Ac
 
 ## Project Structure
 
-lab2task4/
-├── src/
-│ ├── student.c # Implementation with detailed comments
-│ ├── student.h # Structure declarations
-│ └── main.c # Main program entry point
-├── Makefile # Build automation with comments
-├── .github/workflows/ci.yml # GitHub Actions configuration
-├── .gitignore # Ignore compiled files
-└── README.md # Project documentation
+
+graph TD
+    A[lab2task4] --> B[src]
+    A --> C[Makefile]
+    A --> D[.github]
+    A --> E[.gitignore]
+    A --> F[README.md]
+    
+    D --> G[workflows]
+    G --> H[ci.yml]
+    
+    B --> I[student.c]
+    B --> J[student.h]
+    B --> K[main.c]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333
+    style C fill:#bfb,stroke:#333
+    style D fill:#fbb,stroke:#333
+    style E fill:#ffb,stroke:#333
+    style F fill:#bff,stroke:#333
+    style G fill:#fbf,stroke:#333
+    style H fill:#f99,stroke:#333
+    style I fill:#9f9,stroke:#333
+    style J fill:#9f9,stroke:#333
+    style K fill:#9f9,stroke:#333
 
 ## Student Information
 - **Name:** Tarasova
