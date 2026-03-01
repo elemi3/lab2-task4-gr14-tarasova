@@ -1,0 +1,10 @@
+# Object files
+*.o
+# Executables
+program
+program.exe
+build/
+# MSYS2 files
+msys2.exe
+msys64/
+EOF
